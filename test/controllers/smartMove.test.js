@@ -6,6 +6,7 @@ import '../../env'
 
 describe('Given an instance of Library', () => {
   let lib
+  let applicationId
 
   before(() => {
     lib = new RentPrep({
@@ -54,7 +55,7 @@ describe('Given an instance of Library', () => {
     return lib.create(
       'PackageCorePlusEviction',
       {
-        'Applicants': ['applicant@test.com'],
+        'Applicants': ['applicant2@test.com'],
         'LeaseTermInMonths': 12,
         'Rent': 800.00,
         'IR': 2,
@@ -89,6 +90,78 @@ describe('Given an instance of Library', () => {
         'expireMonth': '09',
         'expireYear': '2022'
       }
+    )
+      .then(({data}) => {
+        assert.isNotNull(data)
+      })
+  })
+
+  it('get all applications', () => {
+    return lib.get(
+      '123'
+    )
+      .then(({data}) => {
+        applicationId = data[0].ApplicationId
+        assert.isArray(data)
+      })
+  })
+
+  it('add an applicant', () => {
+    return lib.addApplicant(
+      applicationId,
+      '123',
+      'applicant3@test.com'
+    )
+      .then(({data}) => {
+        assert.isNotNull(data)
+      })
+  })
+
+  it('get an application', () => {
+    return lib.getById(
+      applicationId,
+      '123'
+    )
+      .then(({data}) => {
+        assert.equal(data.ApplicationId, applicationId)
+      })
+  })
+
+  it('cancel application', () => {
+    return lib.cancelApplication(
+      applicationId,
+      '1234'
+    )
+      .then(({data}) => {
+        assert.isNotNull(data)
+      })
+  })
+
+  it('delete an applicant', () => {
+    return lib.removeApplicant(
+      applicationId,
+      '123',
+      'applicant@test.com'
+    )
+      .then(({data}) => {
+        assert.isNotNull(data)
+      })
+  })
+
+  it('get report url', () => {
+    return lib.getReportURL(
+      applicationId,
+      '123'
+    )
+      .then(({data}) => {
+        assert.isNotNull(data)
+      })
+  })
+
+  it('get report status', () => {
+    return lib.getReportStatus(
+      applicationId,
+      '123'
     )
       .then(({data}) => {
         assert.isNotNull(data)
