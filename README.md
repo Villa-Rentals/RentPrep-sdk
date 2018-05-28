@@ -1,6 +1,6 @@
-# Intuit Quickbooks Payment API
+# RentPrep API
 
-[Intuit](http://intuit.com/) payment API for processing eCheck and Credit Card transactions.
+[RentPrep](https://www.rentprep.com/) API for running background and other checks on applying renters.
 
 This module lets you add, remove, charge, and refund Credit Cards & eChecks using Intuit in your Node.js applications.
 

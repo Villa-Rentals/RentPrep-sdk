@@ -9,20 +9,17 @@ export default class Base {
   }
 
   formatUrl (path) {
-    let domain = 'sandbox.api.intuit.com'
+    let domain = 'stage.rentprep.com'
     if (this.production) {
-      domain = 'api.intuit.com'
+      domain = 'screen.rentprep.com'
     }
     return `https://${domain}`
   }
 
   request (method, path, params = {}) {
     let headers = {
-      'Content-Type': 'application/json'
-    }
-
-    if (path !== '/payments/tokens') {
-      headers['x-apiKey'] = this.key
+      'Content-Type': 'application/json',
+      'x-apiKey': this.key
     }
 
     return axios({
