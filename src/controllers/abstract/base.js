@@ -13,7 +13,7 @@ export default class Base {
     if (this.production) {
       domain = 'screen.rentprep.com'
     }
-    return `https://${domain}`
+    return `https://${domain}${path}`
   }
 
   request (method, path, params = {}) {

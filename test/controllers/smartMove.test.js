@@ -14,21 +14,21 @@ describe('Given an instance of Library', () => {
     }).SmartMove()
   })
 
-  it('constructor works', () => {
-    return lib.create({
-      'Product': 'PackageCorePlusEviction',
-      'Application': {
-        'Applicants': ['bolencki13@gmail.com', 'applicanttwo@test.com'],
+  it('create a new application', () => {
+    return lib.create(
+      'PackageCorePlusEviction',
+      {
+        'Applicants': ['applicant@test.com'],
         'LeaseTermInMonths': 12,
         'Rent': 800.00,
         'IR': 2,
         'declineForOpenBankruptcies': false,
         'openBankruptcyWindow': 0
       },
-      'Customer': {
+      {
         'referenceId': '123'
       },
-      'Property': {
+      {
         'LandlordCity': 'Springfield',
         'LandlordFirstName': 'Homer',
         'LandlordLastName': 'Simpson',
@@ -36,16 +36,60 @@ describe('Given an instance of Library', () => {
         'LandlordState': 'NY',
         'LandlordStreetAddressLineOne': '123 Fake Street',
         'LandlordZip': '12345',
-        'LandlordEmail': 'bolencki13@bolencki13.com',
+        'LandlordEmail': 'applicant@landlord.com',
         'Street': '123 Property Street',
         'City': 'Springfield',
         'State': 'NY',
         'Zip': '12345',
         'PropertyName': '742 Evergreen Terrace',
-        'Classification': 'Conventional',
-        'IsFcraAgreementAccepted': true
+        'Classification': 'Conventional'
       }
-    })
+    )
+      .then(({data}) => {
+        assert.isNotNull(data)
+      })
+  })
+
+  it('create a new application natively', () => {
+    return lib.create(
+      'PackageCorePlusEviction',
+      {
+        'Applicants': ['applicant@test.com'],
+        'LeaseTermInMonths': 12,
+        'Rent': 800.00,
+        'IR': 2,
+        'declineForOpenBankruptcies': false,
+        'openBankruptcyWindow': 0
+      },
+      {
+        'referenceId': '123'
+      },
+      {
+        'LandlordCity': 'Springfield',
+        'LandlordFirstName': 'Homer',
+        'LandlordLastName': 'Simpson',
+        'LandlordPhoneNumber': '5555555555',
+        'LandlordState': 'NY',
+        'LandlordStreetAddressLineOne': '123 Fake Street',
+        'LandlordZip': '12345',
+        'LandlordEmail': 'applicant@landlord.com',
+        'Street': '123 Property Street',
+        'City': 'Springfield',
+        'State': 'NY',
+        'Zip': '12345',
+        'PropertyName': '742 Evergreen Terrace',
+        'Classification': 'Conventional'
+      },
+      {
+        'firstName': 'Homer',
+        'lastName': 'Simpson',
+        'cardType': 'mastercard',
+        'cardNumber': '5419543578415880',
+        'cardSecurity': '554',
+        'expireMonth': '09',
+        'expireYear': '2022'
+      }
+    )
       .then(({data}) => {
         assert.isNotNull(data)
       })
