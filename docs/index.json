@@ -1,0 +1,1401 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/controllers/abstract/base.js",
+    "content": "'use strict'\n\nimport axios from 'axios'\n\nexport default class Base {\n  constructor (args) {\n    this.production = args.production\n    this.key = args.key\n  }\n\n  formatUrl (path) {\n    let domain = 'stage.rentprep.com'\n    if (this.production) {\n      domain = 'screen.rentprep.com'\n    }\n    return `https://${domain}${path}`\n  }\n\n  request (method, path, params = {}) {\n    let headers = {\n      'Content-Type': 'application/json',\n      'x-apiKey': this.key\n    }\n\n    return axios({\n      method: method,\n      url: this.formatUrl(path),\n      data: params,\n      headers: headers\n    })\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/brian_olencki/projects/rentprep-sdk/src/controllers/abstract/base.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Base",
+    "memberof": "src/controllers/abstract/base.js",
+    "static": true,
+    "longname": "src/controllers/abstract/base.js~Base",
+    "access": "public",
+    "export": true,
+    "importPath": "rentprep-sdk/src/controllers/abstract/base.js",
+    "importStyle": "Base",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/controllers/abstract/base.js~Base",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/abstract/base.js~Base#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "production",
+    "memberof": "src/controllers/abstract/base.js~Base",
+    "static": false,
+    "longname": "src/controllers/abstract/base.js~Base#production",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "member",
+    "name": "key",
+    "memberof": "src/controllers/abstract/base.js~Base",
+    "static": false,
+    "longname": "src/controllers/abstract/base.js~Base#key",
+    "access": "public",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "method",
+    "name": "formatUrl",
+    "memberof": "src/controllers/abstract/base.js~Base",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/abstract/base.js~Base#formatUrl",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "path",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "request",
+    "memberof": "src/controllers/abstract/base.js~Base",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/abstract/base.js~Base#request",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "method",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "path",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "params",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/controllers/smartMove.js",
+    "content": "'use strict'\n\nimport Base from './abstract/base'\n\nexport default class SmartMove extends Base {\n  /**\n   * Create a new Application\n   * @param  {object} application Application object (https://stage.rentprep.com/docs/SmartMoveAPI/#application)\n   * @param  {object} product     Product object (https://stage.rentprep.com/docs/SmartMoveAPI/#product)\n   * @param  {object} customer    Customer object (https://stage.rentprep.com/docs/SmartMoveAPI/#customer)\n   * @param  {object} property    Property object (https://stage.rentprep.com/docs/SmartMoveAPI/#property)\n   * @return {promise}            Promise from axios\n   */\n  create (application, product, customer, property) {\n    return this.request('POST', '/api/smartmove/application/create', {\n      'Product': product,\n      'Application': application,\n      'Customer': customer,\n      'Property': property\n    })\n  }\n\n  /**\n   * Create a new application natively\n   * @param  {object} application Application object (https://stage.rentprep.com/docs/SmartMoveAPI/#application)\n   * @param  {object} product     Product object (https://stage.rentprep.com/docs/SmartMoveAPI/#product)\n   * @param  {object} customer    Customer object (https://stage.rentprep.com/docs/SmartMoveAPI/#customer)\n   * @param  {object} property    Property object (https://stage.rentprep.com/docs/SmartMoveAPI/#property)\n   * @param  {object} card        Card Credit card object\n   * @return {promise}            Promise from axios\n   */\n  createNatively (application, product, customer, property, card) {\n    return this.request('POST', '/api/smartmove/application/create/embedded', {\n      'Product': product,\n      'Application': application,\n      'Customer': customer,\n      'Property': property,\n      'CreditCard': card\n    })\n  }\n\n  /**\n   * Delete application\n   * @param  {Number} applicationId Application id\n   * @param  {string} referenceId   Cusstomer id in your system\n   * @param  {string} email         The email of the tenant you'd like to delete from the application\n   * @return {promise}              Promise from axios\n   */\n  removeApplicant (applicationId, referenceId, email) {\n    return this.request('POST', '/api/smartmove/applicant/delete', {\n      'applicationId': applicationId,\n      'referenceId': referenceId,\n      'email': email\n    })\n  }\n\n  /**\n   * Add applicant to application\n   * @param  {Number} applicationId Application id\n   * @param  {string} referenceId   Cusstomer id in your system\n   * @param  {string} email         The email of the tenant you'd like to add from the application\n   * @return {promise}              Promise from axios\n   */\n  addApplicant (applicationId, referenceId, email) {\n    return this.request('POST', '/api/smartmove/applicant/add', {\n      'applicationId': applicationId,\n      'referenceId': referenceId,\n      'email': email\n    })\n  }\n\n  /**\n   * Get details for application\n   * @param  {Number} applicationId Application id\n   * @param  {string} referenceId   Cusstomer id in your system\n   * @return {promise}              Promise from axios\n   */\n  getById (applicationId, referenceId) {\n    return this.request('POST', '/api/smartmove/application/details', {\n      'applicationId': applicationId,\n      'referenceId': referenceId\n    })\n  }\n\n  /**\n   * Get all applications\n   * @param  {string} referenceId Customer id from your server\n   * @param  {Number} [limit=10]  (optional) Limit the number of results returned. Default is 10 if no limit given\n   * @param  {Number} [page=0]    (optional) The current page of data for paginated data. Will offset results using page*limit\n   * @return {promise}             Promise from axios\n   */\n  get (referenceId, limit = 10, page = 1) {\n    return this.request('POST', '/api/smartmove/application/all', {\n      'referenceId': referenceId,\n      'limit': limit,\n      'page': page\n    })\n  }\n\n  /**\n   * Cancel application\n   * @param  {Number} applicationId Application id\n   * @param  {string} referenceId   Cusstomer id in your system\n   * @return {promise}              Promise from axios\n   */\n  cancelApplication (applicationId, referenceId) {\n    return this.request('POST', '/api/smartmove/application/cancel', {\n      'applicationId': applicationId,\n      'referenceId': referenceId\n    })\n  }\n\n  /**\n   * Get report url\n   * @param  {number} applicationId ApplicationId\n   * @param  {string} referenceId   Customer id in oyur system\n   * @return {Promise}               Promise from axios\n   */\n  getReportURL (applicationId, referenceId) {\n    return this.request('POST', '/api/smartmove/application/reportUrl', {\n      'applicationId': applicationId,\n      'referenceId': referenceId\n    })\n  }\n\n  /**\n   * Get report status\n   * @param  {number} applicationId ApplicationId\n   * @param  {string} referenceId   Customer id in oyur system\n   * @return {Promise}               Promise from axios\n   */\n  getReportStatus (applicationId, referenceId) {\n    return this.request('POST', '/api/smartmove/application/report/status', {\n      'applicationId': applicationId,\n      'referenceId': referenceId\n    })\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/brian_olencki/projects/rentprep-sdk/src/controllers/smartMove.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "class",
+    "name": "SmartMove",
+    "memberof": "src/controllers/smartMove.js",
+    "static": true,
+    "longname": "src/controllers/smartMove.js~SmartMove",
+    "access": "public",
+    "export": true,
+    "importPath": "rentprep-sdk/src/controllers/smartMove.js",
+    "importStyle": "SmartMove",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "src/controllers/abstract/base.js~Base"
+    ]
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "create",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#create",
+    "access": "public",
+    "description": "Create a new Application",
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "application",
+        "description": "Application object (https://stage.rentprep.com/docs/SmartMoveAPI/#application)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "product",
+        "description": "Product object (https://stage.rentprep.com/docs/SmartMoveAPI/#product)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "customer",
+        "description": "Customer object (https://stage.rentprep.com/docs/SmartMoveAPI/#customer)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "property",
+        "description": "Property object (https://stage.rentprep.com/docs/SmartMoveAPI/#property)"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "createNatively",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#createNatively",
+    "access": "public",
+    "description": "Create a new application natively",
+    "lineNumber": 32,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "application",
+        "description": "Application object (https://stage.rentprep.com/docs/SmartMoveAPI/#application)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "product",
+        "description": "Product object (https://stage.rentprep.com/docs/SmartMoveAPI/#product)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "customer",
+        "description": "Customer object (https://stage.rentprep.com/docs/SmartMoveAPI/#customer)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "property",
+        "description": "Property object (https://stage.rentprep.com/docs/SmartMoveAPI/#property)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "card",
+        "description": "Card Credit card object"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "removeApplicant",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#removeApplicant",
+    "access": "public",
+    "description": "Delete application",
+    "lineNumber": 49,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "applicationId",
+        "description": "Application id"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "referenceId",
+        "description": "Cusstomer id in your system"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": "The email of the tenant you'd like to delete from the application"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "addApplicant",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#addApplicant",
+    "access": "public",
+    "description": "Add applicant to application",
+    "lineNumber": 64,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "applicationId",
+        "description": "Application id"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "referenceId",
+        "description": "Cusstomer id in your system"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "email",
+        "description": "The email of the tenant you'd like to add from the application"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "name": "getById",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#getById",
+    "access": "public",
+    "description": "Get details for application",
+    "lineNumber": 78,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "applicationId",
+        "description": "Application id"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "referenceId",
+        "description": "Cusstomer id in your system"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "get",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#get",
+    "access": "public",
+    "description": "Get all applications",
+    "lineNumber": 92,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "referenceId",
+        "description": "Customer id from your server"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "10",
+        "defaultRaw": 10,
+        "name": "limit",
+        "description": "(optional) Limit the number of results returned. Default is 10 if no limit given"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "0",
+        "defaultRaw": 0,
+        "name": "page",
+        "description": "(optional) The current page of data for paginated data. Will offset results using page*limit"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "cancelApplication",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#cancelApplication",
+    "access": "public",
+    "description": "Cancel application",
+    "lineNumber": 106,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "applicationId",
+        "description": "Application id"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "referenceId",
+        "description": "Cusstomer id in your system"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "getReportURL",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#getReportURL",
+    "access": "public",
+    "description": "Get report url",
+    "lineNumber": 119,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "applicationId",
+        "description": "ApplicationId"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "referenceId",
+        "description": "Customer id in oyur system"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "name": "getReportStatus",
+    "memberof": "src/controllers/smartMove.js~SmartMove",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/controllers/smartMove.js~SmartMove#getReportStatus",
+    "access": "public",
+    "description": "Get report status",
+    "lineNumber": 132,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "applicationId",
+        "description": "ApplicationId"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "referenceId",
+        "description": "Customer id in oyur system"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "Promise from axios"
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/errors/envInitializationError.js",
+    "content": "/**\n * Copyright: Copyright © 2017\n * This file contains trade secrets of Villa Rentals. No part may be reproduced or transmitted in any\n * form by any means or for any purpose without the express written permission of Villa Rentals.\n */\n\n'use strict'\n\nmodule.exports = class EnvInitializationError extends Error {\n  constructor (message, status) {\n    super(message)\n\n    this.name = this.constructor.name\n    Error.captureStackTrace(this, this.constructor)\n    this.status = status || 500\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/brian_olencki/projects/rentprep-sdk/src/errors/envInitializationError.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "class",
+    "name": "exports",
+    "memberof": "src/errors/envInitializationError.js",
+    "static": true,
+    "longname": "src/errors/envInitializationError.js~exports",
+    "access": "public",
+    "export": false,
+    "importPath": "rentprep-sdk/src/errors/envInitializationError.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Error"
+    ],
+    "ignore": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/errors/envInitializationError.js~exports",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/errors/envInitializationError.js~exports#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true
+  },
+  {
+    "__docId__": 69,
+    "kind": "member",
+    "name": "name",
+    "memberof": "src/errors/envInitializationError.js~exports",
+    "static": false,
+    "longname": "src/errors/envInitializationError.js~exports#name",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "member",
+    "name": "status",
+    "memberof": "src/errors/envInitializationError.js~exports",
+    "static": false,
+    "longname": "src/errors/envInitializationError.js~exports#status",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "'use strict'\n\nimport SmartMove from './controllers/smartMove'\n\nexport default class RentPrep {\n  constructor (args) {\n    this.production = args.production\n    this.key = args.key\n  }\n\n  SmartMove () {\n    return new SmartMove({\n      production: this.production,\n      key: this.key\n    })\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/brian_olencki/projects/rentprep-sdk/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 72,
+    "kind": "class",
+    "name": "RentPrep",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~RentPrep",
+    "access": "public",
+    "export": true,
+    "importPath": "rentprep-sdk/src/index.js",
+    "importStyle": "RentPrep",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 73,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~RentPrep",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~RentPrep#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "member",
+    "name": "production",
+    "memberof": "src/index.js~RentPrep",
+    "static": false,
+    "longname": "src/index.js~RentPrep#production",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "key",
+    "memberof": "src/index.js~RentPrep",
+    "static": false,
+    "longname": "src/index.js~RentPrep#key",
+    "access": "public",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "SmartMove",
+    "memberof": "src/index.js~RentPrep",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~RentPrep#SmartMove",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# RentPrep API\n\n[RentPrep](https://www.rentprep.com/) API for running background and other checks on applying renters.\n\nThis module lets you create and query applications; along with add and remove applicants.\n\n## Install\n\n```js\n$ npm i -s git+https://git@github.com:Villa-Rentals/rentprep-sdk.git\n\n```\n\n## Usage\n\n#### Configure Strategy\n\nThe RentPrep API authenticates using the api key. This api key can be requested by contacting RentPrep directly. The library needs to be initialized with the api key and a flag determining production. Example:\n\n```js\nnew RentPrep({\n  production: false,\n  key: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'\n});\n```\n\n#### Making Requests\n\nSee the [documentation](https://villa-rentals.github.io/rentprep-sdk/) for more information about the SDK.\n\n## Tests\n\nThe api key is required for the tests to pass. This can be obtained by contacting RentPrep directly. Once these key has been acquired, create a .env file from the [.env.example](.env.example) file and provide the key. This will be used to authenticate your requests.\n\n```bash\n$ npm install --dev\n$ npm test\n```\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n",
+    "longname": "/Users/brian_olencki/projects/rentprep-sdk/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"rentprep-sdk\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Unofficial SDK to access the RentPrep API\",\n  \"keywords\": [\n    \"rentprep\",\n    \"smart move\",\n    \"credit check\",\n    \"credit score\",\n    \"background check\",\n    \"landlord\",\n    \"property management\"\n  ],\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/Villa-Rentals/rentprep-sdk.git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/Villa-Rentals/rentprep-sdk/issues\"\n  },\n  \"author\": {\n    \"name\": \"Villa Rentals\",\n    \"email\": \"support@getvillarentals.com\"\n  },\n  \"license\": \"MIT\",\n  \"main\": \"./lib/rentprep-sdk\",\n  \"scripts\": {\n    \"build\": \"NODE_ENV=build webpack --env dev && webpack --env build && npm run test\",\n    \"dev\": \"NODE_ENV=dev webpack --progress --colors --watch --env dev\",\n    \"test\": \"mocha --require babel-core/register --colors './test/**/*.test.js'\",\n    \"test:watch\": \"mocha --require babel-core/register --colors -w './test/**/*.test.js'\",\n    \"lint\": \"./node_modules/.bin/eslint . --fix\",\n    \"prepush\": \"npm run lint\",\n    \"docs:open\": \"open ./docs/index.html\",\n    \"docs\": \"./node_modules/.bin/esdoc\"\n  },\n  \"devDependencies\": {\n    \"babel-cli\": \"^6.26.0\",\n    \"babel-core\": \"^6.26.0\",\n    \"babel-eslint\": \"^8.0.3\",\n    \"babel-loader\": \"^7.1.2\",\n    \"babel-plugin-add-module-exports\": \"^0.2.1\",\n    \"babel-preset-env\": \"^1.6.1\",\n    \"chai\": \"^4.1.2\",\n    \"dotenv\": \"^5.0.1\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.13.1\",\n    \"eslint-config-standard\": \"^10.2.1\",\n    \"eslint-loader\": \"^2.0.0\",\n    \"eslint-plugin-import\": \"^2.8.0\",\n    \"eslint-plugin-node\": \"^5.2.1\",\n    \"eslint-plugin-promise\": \"^3.6.0\",\n    \"eslint-plugin-standard\": \"^3.0.1\",\n    \"husky\": \"^0.14.3\",\n    \"mocha\": \"^4.0.1\",\n    \"webpack\": \"^3.10.0\",\n    \"yargs\": \"^10.0.3\"\n  },\n  \"dependencies\": {\n    \"axios\": \"^0.18.0\"\n  }\n}\n",
+    "longname": "/Users/brian_olencki/projects/rentprep-sdk/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

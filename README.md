@@ -2,12 +2,12 @@
 
 [RentPrep](https://www.rentprep.com/) API for running background and other checks on applying renters.
 
-This module lets you add, remove, charge, and refund Credit Cards & eChecks using Intuit in your Node.js applications.
+This module lets you create and query applications; along with add and remove applicants.
 
 ## Install
 
 ```js
-$ npm i -s git+ssh://git@github.com:Villa-Rentals/intuit-payment-sdk.git
+$ npm i -s git+https://git@github.com:Villa-Rentals/rentprep-sdk.git
 
 ```
 
@@ -15,22 +15,22 @@ $ npm i -s git+ssh://git@github.com:Villa-Rentals/intuit-payment-sdk.git
 
 #### Configure Strategy
 
-The Intuit Quickbooks Payment API authenticates using the OAuth 2.0 tokens previously provided (see [passport-intuit](https://github.com/Villa-Rentals/passport-intuit) for more information on getting these tokens). The SDK requires the version of the API along with a flag for production or development access.
+The RentPrep API authenticates using the api key. This api key can be requested by contacting RentPrep directly. The library needs to be initialized with the api key and a flag determining production. Example:
 
 ```js
-new Intuit({
+new RentPrep({
   production: false,
-  version: 'v4'
+  key: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
 });
 ```
 
 #### Making Requests
 
-See the [documentation](https://villa-rentals.github.io/intuit-payment-sdk/) for more information about the SDK.
+See the [documentation](https://villa-rentals.github.io/rentprep-sdk/) for more information about the SDK.
 
 ## Tests
 
-The access_token and realmId are required for the tests to pass. These can be obtained through the [OAuth 2.0 authentication procedure](https://developer.intuit.com/docs/00_quickbooks_online/2_build/10_authentication_and_authorization). Once these tokens have been acquired, create a .env file from the [.env.example](.env.example) file and provide the tokens. These will be used to authenticate your requests.
+The api key is required for the tests to pass. This can be obtained by contacting RentPrep directly. Once these key has been acquired, create a .env file from the [.env.example](.env.example) file and provide the key. This will be used to authenticate your requests.
 
 ```bash
 $ npm install --dev

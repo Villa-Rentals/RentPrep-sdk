@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/controllers/smartMove.js | rentprep-sdk</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Unofficial SDK to access the RentPrep API"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="rentprep-sdk"><meta property="twitter:description" content="Unofficial SDK to access the RentPrep API"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/Villa-Rentals/rentprep-sdk.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~RentPrep.html">RentPrep</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers">controllers</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/controllers/smartMove.js~SmartMove.html">SmartMove</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#controllers-abstract">controllers/abstract</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/controllers/abstract/base.js~Base.html">Base</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/controllers/smartMove.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&apos;use strict&apos;
+
+import Base from &apos;./abstract/base&apos;
+
+export default class SmartMove extends Base {
+  /**
+   * Create a new Application
+   * @param  {object} application Application object (https://stage.rentprep.com/docs/SmartMoveAPI/#application)
+   * @param  {object} product     Product object (https://stage.rentprep.com/docs/SmartMoveAPI/#product)
+   * @param  {object} customer    Customer object (https://stage.rentprep.com/docs/SmartMoveAPI/#customer)
+   * @param  {object} property    Property object (https://stage.rentprep.com/docs/SmartMoveAPI/#property)
+   * @return {promise}            Promise from axios
+   */
+  create (application, product, customer, property) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/application/create&apos;, {
+      &apos;Product&apos;: product,
+      &apos;Application&apos;: application,
+      &apos;Customer&apos;: customer,
+      &apos;Property&apos;: property
+    })
+  }
+
+  /**
+   * Create a new application natively
+   * @param  {object} application Application object (https://stage.rentprep.com/docs/SmartMoveAPI/#application)
+   * @param  {object} product     Product object (https://stage.rentprep.com/docs/SmartMoveAPI/#product)
+   * @param  {object} customer    Customer object (https://stage.rentprep.com/docs/SmartMoveAPI/#customer)
+   * @param  {object} property    Property object (https://stage.rentprep.com/docs/SmartMoveAPI/#property)
+   * @param  {object} card        Card Credit card object
+   * @return {promise}            Promise from axios
+   */
+  createNatively (application, product, customer, property, card) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/application/create/embedded&apos;, {
+      &apos;Product&apos;: product,
+      &apos;Application&apos;: application,
+      &apos;Customer&apos;: customer,
+      &apos;Property&apos;: property,
+      &apos;CreditCard&apos;: card
+    })
+  }
+
+  /**
+   * Delete application
+   * @param  {Number} applicationId Application id
+   * @param  {string} referenceId   Cusstomer id in your system
+   * @param  {string} email         The email of the tenant you&apos;d like to delete from the application
+   * @return {promise}              Promise from axios
+   */
+  removeApplicant (applicationId, referenceId, email) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/applicant/delete&apos;, {
+      &apos;applicationId&apos;: applicationId,
+      &apos;referenceId&apos;: referenceId,
+      &apos;email&apos;: email
+    })
+  }
+
+  /**
+   * Add applicant to application
+   * @param  {Number} applicationId Application id
+   * @param  {string} referenceId   Cusstomer id in your system
+   * @param  {string} email         The email of the tenant you&apos;d like to add from the application
+   * @return {promise}              Promise from axios
+   */
+  addApplicant (applicationId, referenceId, email) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/applicant/add&apos;, {
+      &apos;applicationId&apos;: applicationId,
+      &apos;referenceId&apos;: referenceId,
+      &apos;email&apos;: email
+    })
+  }
+
+  /**
+   * Get details for application
+   * @param  {Number} applicationId Application id
+   * @param  {string} referenceId   Cusstomer id in your system
+   * @return {promise}              Promise from axios
+   */
+  getById (applicationId, referenceId) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/application/details&apos;, {
+      &apos;applicationId&apos;: applicationId,
+      &apos;referenceId&apos;: referenceId
+    })
+  }
+
+  /**
+   * Get all applications
+   * @param  {string} referenceId Customer id from your server
+   * @param  {Number} [limit=10]  (optional) Limit the number of results returned. Default is 10 if no limit given
+   * @param  {Number} [page=0]    (optional) The current page of data for paginated data. Will offset results using page*limit
+   * @return {promise}             Promise from axios
+   */
+  get (referenceId, limit = 10, page = 1) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/application/all&apos;, {
+      &apos;referenceId&apos;: referenceId,
+      &apos;limit&apos;: limit,
+      &apos;page&apos;: page
+    })
+  }
+
+  /**
+   * Cancel application
+   * @param  {Number} applicationId Application id
+   * @param  {string} referenceId   Cusstomer id in your system
+   * @return {promise}              Promise from axios
+   */
+  cancelApplication (applicationId, referenceId) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/application/cancel&apos;, {
+      &apos;applicationId&apos;: applicationId,
+      &apos;referenceId&apos;: referenceId
+    })
+  }
+
+  /**
+   * Get report url
+   * @param  {number} applicationId ApplicationId
+   * @param  {string} referenceId   Customer id in oyur system
+   * @return {Promise}               Promise from axios
+   */
+  getReportURL (applicationId, referenceId) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/application/reportUrl&apos;, {
+      &apos;applicationId&apos;: applicationId,
+      &apos;referenceId&apos;: referenceId
+    })
+  }
+
+  /**
+   * Get report status
+   * @param  {number} applicationId ApplicationId
+   * @param  {string} referenceId   Customer id in oyur system
+   * @return {Promise}               Promise from axios
+   */
+  getReportStatus (applicationId, referenceId) {
+    return this.request(&apos;POST&apos;, &apos;/api/smartmove/application/report/status&apos;, {
+      &apos;applicationId&apos;: applicationId,
+      &apos;referenceId&apos;: referenceId
+    })
+  }
+}
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
