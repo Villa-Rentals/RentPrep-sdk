@@ -10,10 +10,18 @@ describe('Given an instance of Library', () => {
   before(() => {
     lib = new RentPrep({
       production: false,
+      key: process.env.API_KEY
     })
   })
 
   it('constructor works', () => {
     assert.equal(lib.production, false)
+  })
+
+  it('returns the SmartMovew object', () => {
+    let smartMove = lib.SmartMove()
+
+    assert.equal(smartMove.production, false)
+    assert.equal(smartMove.key, process.env.API_KEY)
   })
 })
